@@ -1,3 +1,3 @@
 module.exports = {
-  HOST: 'http://localhost:3000'
+  HOST: 'http://10.5.0.59:8081'
 };

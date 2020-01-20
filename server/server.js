@@ -73,8 +73,8 @@ nextApp.prepare().then(() => {
     return nextHandler(req, res);
   });
 
-  server.listen(process.env.PORT || 3000, err => {
+  server.listen(process.env.PORT || 8081, err => {
     if (err) throw err;
-    console.log(`> Ready on http://localhost:${process.env.PORT || 3000}`);
+    console.log(`> Ready on http://10.5.0.59:${process.env.PORT || 8081}`);
   });
 });
